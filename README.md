@@ -37,10 +37,16 @@ If you don't have a MariaDB database up and running you can find more informatio
 
 ## 2.) Get the code <a name="code"></a>
 
-Download this repo directly or use [git](git-scm.org) (through CLI or a client) to retrieve the code using `git clone`:
+First, use [git](git-scm.org) (through CLI or a client) to retrieve the code using `git clone`:
 
 ```
 $ git clone https://github.com/mariadb-developers/todo_app_nodejs.git
+```
+
+Next, because this repo uses a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules), you will need to pull the [client application](https://github.com/mariadb-developers/todo_app_client) using:
+
+```bash
+$ git submodule update --init --recursive
 ```
 
 ## 3.) Create the database and table <a name="schema"></a>
