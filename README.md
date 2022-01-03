@@ -83,7 +83,7 @@ This application is made of two parts:
     - communicates with the API.
     - is a React.js project located in the [client](src/client) folder.
 * API
-    - uses the MariaDB Node.js Connector to connect to MariaDB.
+    - uses the [MariaDB Node.js Connector](https://github.com/mariadb-corporation/mariadb-connector-nodejs) to connect to MariaDB.
     - is a Node.js project located int the [api](src/api) folder.
 
 ### a.) Configure the app <a name="configure-app"></a>
