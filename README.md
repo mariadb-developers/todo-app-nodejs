@@ -176,7 +176,7 @@ $ npm install
 $ npm start
 ``` 
 
-### e.) Build and run the [UI (Client) app](src/client) <a name="build-run-client"></a>
+### c.) Build and run the [UI (Client) app](src/client) <a name="build-run-client"></a>
 
 Once the API project is running you can now communicate with the exposed endpoints directly (via HTTP requests) or with the application UI, which is contained with the [client](src/client) folder of this repo.
 
