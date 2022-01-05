@@ -18,7 +18,7 @@ This application is made of two parts:
     - uses the [MariaDB Node.js Connector](https://github.com/mariadb-corporation/mariadb-connector-nodejs) to connect to MariaDB.
     - is a Node.js project located in the [api](src/api) folder.
 
-This README will walk you through the steps for getting the TODO web application up and running using MariaDB.
+This README will walk you through the steps for getting the `TODO` web application up and running using MariaDB.
 
 # Table of Contents
 1. [Requirements](#requirements)
@@ -27,7 +27,7 @@ This README will walk you through the steps for getting the TODO web application
 4. [Create the database and table](#schema)
 5. [Configure, build and run the app](#app)
     1. [Configure](#configure-app)
-    2. [Build and run the API app](#build-run-api)
+    2. [Build and run the Node.js API app](#build-run-api)
     3. [Build and run the Client app](#build-run-client)
 6. [Support and contribution](#support-contribution)
 7. [License](#license)
@@ -176,11 +176,11 @@ $ npm install
 $ npm start
 ``` 
 
-### c.) Build and run the [UI (Client) app](src/client) <a name="build-run-client"></a>
+### c.) Build and run the [UI (Client) app](https://github.com/mariadb-developers/todo-app-client) <a name="build-run-client"></a>
 
-Once the API project is running you can now communicate with the exposed endpoints directly (via HTTP requests) or with the application UI, which is contained with the [client](src/client) folder of this repo.
+Once the API project is running you can now communicate with the exposed endpoints directly (via HTTP requests) or with the application UI, which is contained with the `client` folder of this repo.
 
-To start the [client](src/client) application follow the instructions [here](https://github.com/mariadb-developers/todo-app-client).
+To start the `client` application follow the instructions [here](https://github.com/mariadb-developers/todo-app-client).
 
 ## Support and Contribution <a name="support-contribution"></a>
 
